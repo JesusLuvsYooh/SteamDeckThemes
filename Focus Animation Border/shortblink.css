@@ -1,0 +1,6 @@
+div.BasicUI div.appportrait_LibraryItemBox_WYgDg.Focusable:focus
+{
+	animation: 
+     appportrait_growOutline_3wk3d .4s ease,
+        appportrait_fadeOutline_1FLuV 1.4s ease;
+}
