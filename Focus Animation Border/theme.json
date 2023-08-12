@@ -26,6 +26,21 @@
         },
         "System Default": {}
       }
+    },
+    "Round Compatibility": {
+      "type": "checkbox",
+      "default": "No",
+      "values": {
+        "Yes": {
+          "round-compat.css": [
+            "SP",
+            "QuickAccess",
+            "MainMenu"
+          ]
+        },
+        "No": {}
+      },
+      "components": []
     }
   }
 }
