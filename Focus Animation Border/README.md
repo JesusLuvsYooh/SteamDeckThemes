@@ -18,6 +18,11 @@ Disabled or shorter animations activing low FPS mode preview:
 System default, focus border stays on for longer keeping deck running at 60fps un-necessarily:
 ![Fab4](https://github.com/JesusLuvsYooh/SteamDeckThemes/assets/57072365/50fa1b91-3f53-4463-9f9d-7ab926e38c7b)  
 
+Video preview:  
+
+https://github.com/JesusLuvsYooh/SteamDeckThemes/assets/57072365/f213a85e-6343-4321-bc25-173cca30d3ff
+
+
 # Credits
 Everyone involved in the DeckyLoader and DeckThemes projects.  
 The Discord communities, particularly: Party Wumpus, Beebles, Tails, Tormak, Rensei.  
