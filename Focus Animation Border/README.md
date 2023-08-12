@@ -1,5 +1,5 @@
 ## Steam-Deck-Theme  
-# FAB  FocusAnimation Border  
+# FAB  Focus Animation Border  
 A dropdown to provide tweaks to the focus animation blinker surrounding the borders of certain UI aspects.  
 
 By default, the border animates on focus, then continues for around 25 seconds.  
