@@ -12,29 +12,16 @@
       "values": {
       "No Animation": {
           "noblink.css": [
-           "bigpicture", "QuickAccess", "MainMenu","store"
+           "bigpicture", "QuickAccess", "MainMenu","store","notificationtoasts.*"
           ]
         },
         "Short Animation": {
           "shortblink.css": [
-           "bigpicture", "QuickAccess", "MainMenu","store"
+           "bigpicture", "QuickAccess", "MainMenu","store","notificationtoasts.*"
           ]
         },
         "System Default": {}
       }
-    },
-    "Round Compatibility": {
-      "type": "checkbox",
-      "default": "No",
-      "values": {
-        "Yes": {
-          "round-compat.css": [
-           "bigpicture", "QuickAccess", "MainMenu"
-          ]
-        },
-        "No": {}
-      },
-      "components": []
     }
   }
 }
