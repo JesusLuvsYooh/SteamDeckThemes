@@ -1,27 +1,49 @@
 {
     "name": "Focus Animation Border",
     "author": "JesusLuvsYooh",
-    "version": "v1.0",
+    "version": "v1.1",
     "manifest_version": 8,
     "target": "System-Wide",
-    "description": "A dropdown to provide tweaks to the focus animation blinker surrounding the borders of certain UI aspects.  By default, the border animates on focus, then continues for around 25 seconds.  During this period, it keeps the Steam Deck from entering low FPS mode, and remains at 60fps while focus animation is active.  Disabling or shortening this effect makes the Deck enter 0/1 fps mode faster, saving you valuable battery watts.  These tweaks may also be good for aesthetic reasons.",
+    "description": "A dropdown to provide tweaks to the focus animation blinker surrounding the borders of certain UI aspects.  By default, the border animates on focus, then continues for around 25 seconds.  During this period, it keeps the Steam Deck from entering low FPS mode, and remains at 60fps while focus animation is active.  Disabling or shortening this effect makes the Deck enter 0/1 fps mode faster, saving you valuable battery watts.  These tweaks may also be good for aesthetic reasons. New No Borders option, ideal for use with certain other themes.",
     "patches": {
     "Focus Animation Border": {
       "default": "No Animation",
       "type": "dropdown",
-      "values": {
-      "No Animation": {
-          "noblink.css": [
-           "bigpicture", "QuickAccess", "MainMenu","store","notificationtoasts.*"
-          ]
-        },
-        "Short Animation": {
-          "shortblink.css": [
-           "bigpicture", "QuickAccess", "MainMenu","store","notificationtoasts.*"
-          ]
-        },
-        "System Default": {}
-      }
+        "values": {
+            "No Animation": {
+                "noblink.css": [
+                    "bigpicture",
+                    "QuickAccess",
+                    "MainMenu",
+                    "store",
+                    "notificationtoasts.*"
+                ]
+            },
+            "Short Animation": {
+                "shortblink.css": [
+                    "bigpicture",
+                    "QuickAccess",
+                    "MainMenu",
+                    "store",
+                    "notificationtoasts.*"
+                ]
+            },
+            "No Border ": {
+                "noborder.css": [
+                    "SP"
+                ]
+            },
+            "No Border Global": {
+                "noborder.css": [
+                    "bigpicture",
+                    "QuickAccess",
+                    "MainMenu",
+                    "store",
+                    "notificationtoasts.*"
+                ]
+            },
+            "System Default": {}
+        }
     }
   }
 }
