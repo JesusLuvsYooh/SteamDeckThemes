@@ -7,6 +7,7 @@ During this period, it keeps the Steam Deck from entering low FPS mode, and rema
 Disabling or shortening this effect makes the Deck enter 0/1 fps mode faster, saving you valuable battery watts.  
 
 These tweaks may also be good for aesthetic reasons.  
+New No Borders option, ideal for use with certain other themes.  
 
 # Images  
 Quickaccess menu preview:
